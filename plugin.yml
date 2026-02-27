@@ -1,0 +1,19 @@
+name: NightVision
+main: NightVision\Main
+version: 1.0.0
+api: 5.0.0
+author: ZyberPE
+
+commands:
+  nv:
+    description: Toggle Night Vision
+    usage: "/nv on/off"
+    permission: nv.use
+  nightvision:
+    description: Toggle Night Vision
+    usage: "/nightvision on/off"
+    permission: nv.use
+
+permissions:
+  nv.use:
+    default: op
