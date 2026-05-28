@@ -27,7 +27,7 @@ class Main extends PluginBase {
         }
 
         if (!$sender->hasPermission("nv.use")) {
-            $sender->sendMessage("§cYou do not have permission to use this command.");
+            $sender->sendMessage("§cYou do not have permission to use this command purchase a rank too have access.");
             return true;
         }
 
